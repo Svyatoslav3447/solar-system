@@ -1,0 +1,9 @@
+{
+  "name": "solar-system",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev:web": "pnpm --filter web dev",
+    "dev:mobile": "pnpm --filter mobile start"
+  }
+}

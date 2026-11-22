@@ -1,0 +1,17 @@
+{
+  "name": "@solar-system/store",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "exports": {
+    ".": "./src/index.tsx"
+  },
+  "dependencies": {
+    "@reduxjs/toolkit": "^2.15.0",
+    "@solar-system/api": "workspace:*",
+    "@solar-system/ui": "workspace:*",
+    "@types/react": "~19.3.0",
+    "react": "19.3.0",
+    "react-redux": "^9.3.1"
+  }
+}
