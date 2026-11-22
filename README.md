@@ -11,8 +11,6 @@
 - Перемикання світлої та темної тем оформлення.
 - Спільний Redux Toolkit store для веб- і мобільної версій.
 
-Під час розробки за допомогою ШІ було реалізовано логіку розташування планет на орбітах і їх пересування вздовж орбіт.
-
 ## Структура проєкту
 
 ```text
@@ -22,7 +20,7 @@ apps/
 packages/
   api/       API-клієнт і типи даних планет
   store/     Redux Toolkit store, slices та обчислення орбіт
-  ui/        Дизайн-токени, графіка планет і спільний Tailwind preset
+  ui/        Дизайн-токени, графіка планет і спільний Tailwind/NativeWind preset
   config/    Спільні конфігурації TypeScript, ESLint і Prettier
 ```
 
@@ -31,7 +29,7 @@ packages/
 ## Технології
 
 - **Веб:** Next.js, React, TypeScript, Tailwind CSS.
-- **Мобільний застосунок:** Expo, React Native, Expo Router, TypeScript.
+- **Мобільний застосунок:** Expo, React Native, Expo Router, NativeWind, TypeScript.
 - **Спільний стан:** Redux Toolkit і React Redux.
 - **Орбіти та жести:** власні обчислення координат, `@dnd-kit` у вебверсії та Gesture Handler із Reanimated у мобільній.
 - **Дані планет:** FreeHoroscopeAPI, запит sidereal zodiac.

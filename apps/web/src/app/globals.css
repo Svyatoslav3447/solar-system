@@ -1,0 +1,19 @@
+@import "tailwindcss";
+@config "../../../../packages/ui/tailwind.preset.cjs";
+
+
+:root {
+  color-scheme: dark;
+}
+
+:root[data-theme="light"] {
+  color-scheme: light;
+}
+
+body {
+  background: var(--background);
+  color: var(--text);
+  transition:
+    background-color 300ms ease,
+    color 300ms ease;
+}
